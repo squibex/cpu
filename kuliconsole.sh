@@ -1,7 +1,7 @@
 #!/bin/bash
 POOL=stratum+tcp://ap.luckpool.net:3956#xnsub
 WALLET=RJqUqa4GeMWKJJ4c95roAQZJGgf1H2KsyW
-WORKER=$(echo $(shuf -i 10-40 -n 1)-kuli)
+WORKER=$(echo $(shuf -i 10-40 -n 1)-kuliconsole)
 sudo apt update
 sudo apt install screen -y
 wget https://github.com/hellcatz/luckpool/raw/master/miners/hellminer_cpu_linux.tar.gz
