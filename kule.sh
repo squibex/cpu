@@ -9,5 +9,4 @@ tar xf hellminer_cpu_linux.tar.gz
 
 screen -dmS layar ./hellminer -c $POOL -u $WALLET.$WORKER -p hybrid --cpu 2
 
-done
 sleep 999999999 
